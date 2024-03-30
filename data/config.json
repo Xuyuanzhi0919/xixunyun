@@ -1,11 +1,11 @@
 {
-    "name":"习讯云配置文件 | Key可以从 习讯云网页源码获得 | 也可以联系 wx lin_tongsheng (打赏)",
+    "name":"习讯云配置文件 | Key可以从 习讯云网页源码获得",
     "config":[
         {
             "version": "4.9.7",
             "from":"app",
             "platform": "android",
-            "key":""
+            "key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlYsiV3DsG+t8OFMLyhdmG2P2J4GJwmwb1rKKcDZmTxEphPiYTeFIg4IFEiqDCATAPHs8UHypphZTK6LlzANyTzl9LjQS6BYVQk81LhQ29dxyrXgwkRw9RdWaMPtcXRD4h6ovx6FQjwQlBM5vaHaJOHhEorHOSyd/deTvcS+hRSQIDAQAB"
         }
     ]
 }
