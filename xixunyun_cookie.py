@@ -51,12 +51,12 @@ def Cookie():
 def load_send():
     cur_path = os.path.abspath(os.path.dirname(__file__))
     sys.path.append(cur_path)
-    if os.path.exists(cur_path + "/sendNotify.py"):
+    if os.path.exists(cur_path + "/notify.py"):
         try:
-            from sendNotify import send
+            from notify import send
             return send
         except Exception as e:
-            #print(f"加载通知服务失败：{e}")
+            print(f"加载通知服务失败了：{e}")
             return None
     else:
         print("加载通知服务失败")
