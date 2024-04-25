@@ -39,6 +39,7 @@ except:
     os._exit()
 # 加载通知服务
 def load_send():
+    import sys
     cur_path = os.path.abspath(os.path.dirname(__file__))
     sys.path.append(cur_path)
     if os.path.exists(cur_path + "/notify.py"):
@@ -46,7 +47,7 @@ def load_send():
             from notify import send
             return send
         except Exception as e:
-            print(f"加载通知服务失败了：{e}")
+            #print(f"加载通知服务失败：{e}")
             return None
     else:
         print("加载通知服务失败")
